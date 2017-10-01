@@ -1,3 +1,4 @@
+% ESSA FUN??O EU FIZ PARA AUXILIAR NO PLOT 3D DO ROBO.
 figure(2)
 hold on
 realcart = horzcat(xr,yr,zr);
