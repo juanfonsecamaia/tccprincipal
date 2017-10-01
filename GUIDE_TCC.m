@@ -64,9 +64,6 @@ myImage = imread('titulo.jpg');
 axes(handles.axes1);
 imshow(myImage);
 
-% UIWAIT makes GUIDE_TCC wait for user response (see UIRESUME)
-% uiwait(handles.figure1);
-
 
 % --- Outputs from this function are returned to the command line.
 function varargout = GUIDE_TCC_OutputFcn(hObject, eventdata, handles) 
