@@ -95,12 +95,6 @@ set_param(handles.modelname,'SimulationCommand','Start');
 guidata(hObject,handles);
 
 function edit_simfile_Callback(hObject, eventdata, handles)
-% hObject    handle to edit_simfile (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'String') returns contents of edit_simfile as text
-%        str2double(get(hObject,'String')) returns contents of edit_simfile as a double
 
 
 % --- Executes during object creation, after setting all properties.
