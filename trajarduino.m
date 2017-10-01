@@ -1,3 +1,7 @@
+% ISSO AQUI VAI FAZER O VETOR DE TRAJETORIA PARA POR NO ARDUINO.
+% SIMOUT ? O VETOR DE ANGULOS DAS TRES JUNTAS. O ANGULO ? EM PULSOS.
+% A VARIAVEL DE SAIDA ? A "MATRIZ"
+
 s = 0;
 for i=1:1:length(simout)
     if(i == length(simout))
@@ -8,7 +12,7 @@ for i=1:1:length(simout)
 
     end
 end
-s = strcat('{',s,'}')
+s = strcat('{',s,'}');
 dimensao = strcat('tamanho: ',int2str(length(simout)))
 matriz = strcat('mattraj[',int2str(length(simout)),'][2] = ',s,';')
 
