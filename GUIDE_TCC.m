@@ -653,7 +653,7 @@ graus = 180/pi;
     th2(i) = atan2(term1, term2);
 %     #optional line. Comment this one out if you 
 %     #notice any problems
-    th2(i) = -1*th2(i);
+%     th2(i) = -1*th2(i);
 %   x =x y=-z z=y
 
 %     #Stuff for calculating th2
@@ -766,7 +766,7 @@ motor_B = 9/100000000;
 theta = [0 0 0];
 d = [0.08 0 0];
 l = [0 0.13 0.1];
-alpha = [-pi/2 0 0];
+alpha = [pi/2 0 0];
 
 %criar elos
 % theta | D | l | alpha | sigma | m | rx ry rz | Ixx Iyy Izz Ixy Iyz Ixz | Jm | G | B | Tc[0 0]   
@@ -799,13 +799,14 @@ global robot;
 global rx;
 global ry;
 global rz;
+
 xr = evalin('base','xr');
 yr = evalin('base','yr');
 zr = evalin('base','zr');
 qreal = evalin('base','qreal');
 
 if (a == 1)
-    figure(2);
+    figure(1);
     realcart = horzcat(xr,yr,zr);
     for i=1:1:length(qreal)-1
     robot.plot(qreal(i,:));
@@ -814,7 +815,7 @@ if (a == 1)
     end
     robot.plot(qreal(length(qreal),:));
     hold on
-    figure(2);
+    figure(1);
     plot3(rx,ry,rz,'b');
 else
    close(figure(2));

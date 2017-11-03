@@ -1,12 +1,12 @@
 Model {
   Name			  "dinamica"
   Version		  8.8
-  SavedCharacterEncoding  "windows-1251"
+  SavedCharacterEncoding  "windows-1252"
   GraphicalInterface {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.52"
+    ComputedModelVersion    "1.53"
     NumModelReferences	    0
     NumTestPointedSignals   1
     TestPointedSignal {
@@ -58,7 +58,7 @@ Model {
       $ObjectID		      3
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [-7.0, 0.0, 872.0, 775.0]
+      Location		      [1358.0, -73.0, 1456.0, 916.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		4
@@ -83,7 +83,7 @@ Model {
 	  IsActive		  [1]
 	  ViewObjType		  "SimulinkTopLevel"
 	  LoadSaveID		  "0"
-	  Extents		  [822.0, 623.0]
+	  Extents		  [1406.0, 764.0]
 	  ZoomFactor		  [1.0]
 	  Offset		  [-302.03169706932295, -340.02142857142849]
 	}
@@ -92,7 +92,7 @@ Model {
 	  IsActive		  [0]
 	  ViewObjType		  "SimulinkSubsys"
 	  LoadSaveID		  "188"
-	  Extents		  [822.0, 623.0]
+	  Extents		  [1406.0, 764.0]
 	  ZoomFactor		  [1.0]
 	  Offset		  [-1.0104166666666288, 5.7500000000001137]
 	}
@@ -116,11 +116,11 @@ Model {
       "AAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0Ac"
       "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABfAP///wAAAAEAAAAAAAAAAPwCA"
       "AAAAfsAAABUAEcATABVAEUAMgA6AFAAcgBvAHAAZQByAHQAeQBJAG4AcwBwAGUAYwB0AG8AcgAvAFAAcgBvAHAAZQByAHQAeQAgAEkAbgBzAHAAZ"
-      "QBjAHQAbwByAAAAAAD/////AAAAJwD///8AAANYAAACiQAAAAEAAAACAAAAAQAAAAL8AAAAAQAAAAIAAAAP/////wAAAAAA/////wAAAAAAAAAA/"
+      "QBjAHQAbwByAAAAAAD/////AAAAJwD///8AAAWgAAADFgAAAAEAAAACAAAAAQAAAAL8AAAAAQAAAAIAAAAP/////wAAAAAA/////wAAAAAAAAAA/"
       "////wEAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/"
       "////wEAAAB5/////wAAAAAAAAAA/////wEAAADa/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAFT/////wAAAAAAAAAA/"
-      "////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAL6/////wAAAAAAAAAA/"
-      "////wEAAAMp/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA"
+      "////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAMr/////wAAAAAAAAAA/"
+      "////wEAAANa/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA"
     }
   }
   Created		  "Wed Oct 05 17:25:19 2016"
@@ -129,9 +129,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "juan"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Wed Sep 13 14:17:52 2017"
-  RTWModifiedTimeStamp	  427213068
-  ModelVersionFormat	  "1.%<AutoIncrement:52>"
+  LastModifiedDate	  "Fri Nov 03 20:15:03 2017"
+  RTWModifiedTimeStamp	  431640495
+  ModelVersionFormat	  "1.%<AutoIncrement:53>"
   ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -1151,7 +1151,7 @@ Model {
   }
   System {
     Name		    "dinamica"
-    Location		    [-7, 0, 865, 775]
+    Location		    [1358, -73, 2814, 843]
     Open		    on
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200
@@ -1176,20 +1176,20 @@ Model {
       ScopeSpecificationString "Simulink.scopes.TimeScopeBlockCfg('CurrentConfiguration', extmgr.ConfigurationSet(extm"
       "gr.Configuration('Core','General UI',true),extmgr.Configuration('Core','Source UI',true),extmgr.Configuration('S"
       "ources','WiredSimulink',true,'DataLoggingVariableName','ScopeData4'),extmgr.Configuration('Visuals','Time Domain"
-      "',true,'SerializedDisplays',{struct('MinYLimReal','-0.14338','MaxYLimReal','0.27149','YLabelReal','','MinYLimMag"
-      "','0.00000','MaxYLimMag','0.27149','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'Axes"
+      "',true,'SerializedDisplays',{struct('MinYLimReal','-0.02875','MaxYLimReal','0.25875','YLabelReal','','MinYLimMag"
+      "','0.00000','MaxYLimMag','0.25875','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'Axes"
       "Color',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.06666"
       "66666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.8313"
       "72549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686"
       " 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines"
       "',3,'LineNames',{{'T2xyz/1','T2xyz/2','T2xyz/3'}},'ShowContent',true,'Placement',1)},'DisplayPropertyDefaults',s"
-      "truct('MinYLimReal','-0.14338','MaxYLimReal','0.27149','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','0.27"
-      "149','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor'"
+      "truct('MinYLimReal','-0.02875','MaxYLimReal','0.25875','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','0.25"
+      "875','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor'"
       ",[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[0.0745098039215686 0.623529411764706 1;1 "
       "0.411764705882353 0.16078431372549;1 1 0.0666666666666667;0.717647058823529 0.274509803921569 1;0.39215686274509"
       "8 0.831372549019608 0.0745098039215686;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863])),extmgr.C"
       "onfiguration('Tools','Plot Navigation',true),extmgr.Configuration('Tools','Measurements',true,'Version','2016b')"
-      "),'Version','2016b','Position',[323 60 596 387])"
+      "),'Version','2016b','Position',[1367 -66 1440 823])"
       NumInputPorts	      "3"
     }
     Block {
@@ -1213,7 +1213,7 @@ Model {
       Variant		      off
       System {
 	Name			"Const Agre"
-	Location		[-7, 0, 865, 775]
+	Location		[1358, -73, 2814, 843]
 	Open			on
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -1725,7 +1725,7 @@ Model {
       "274509803921569 1;0.392156862745098 0.831372549019608 0.0745098039215686;0.0588235294117647 1 1;1 0.074509803921"
       "5686 0.650980392156863])),extmgr.Configuration('Tools','Plot Navigation',true,'PreviousAutoscale','XY','OnceAtSt"
       "op',false,'PreviousZoomMode','ZoomX'),extmgr.Configuration('Tools','Measurements',true,'Version','2016b')),'Vers"
-      "ion','2016b','Position',[-1023 5 1024 687])"
+      "ion','2016b','Position',[1367 -66 1440 877],'LockDynamicWidgets',-1,'VisibleAtModelOpen','on')"
       NumInputPorts	      "2"
     }
     Block {
@@ -1892,7 +1892,7 @@ Model {
       "717647058823529 0.274509803921569 1;0.392156862745098 0.831372549019608 0.0745098039215686;0.0588235294117647 1 "
       "1;1 0.0745098039215686 0.650980392156863])),extmgr.Configuration('Tools','Plot Navigation',true,'PreviousAutosca"
       "le','XY','OnceAtStop',false,'PreviousZoomMode','ZoomY'),extmgr.Configuration('Tools','Measurements',true,'Versio"
-      "n','2016b')),'Version','2016b','Position',[-1023 1 1024 691],'VisibleAtModelOpen','on')"
+      "n','2016b')),'Version','2016b','Position',[171 39 1024 691])"
       NumInputPorts	      "1"
     }
     Block {
@@ -2225,7 +2225,7 @@ Model {
 	  SID			  "66"
 	  Position		  [70, 20, 100, 50]
 	  ZOrder		  195
-	  Gain			  "60"
+	  Gain			  "2"
 	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
 	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
 	  SaturateOnIntegerOverflow off
@@ -2236,7 +2236,7 @@ Model {
 	  SID			  "67"
 	  Position		  [70, 70, 100, 100]
 	  ZOrder		  210
-	  Gain			  "70"
+	  Gain			  "2"
 	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
 	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
 	  SaturateOnIntegerOverflow off
@@ -2247,7 +2247,7 @@ Model {
 	  SID			  "68"
 	  Position		  [70, 125, 100, 155]
 	  ZOrder		  212
-	  Gain			  "60"
+	  Gain			  "2"
 	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
 	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
 	  SaturateOnIntegerOverflow off
@@ -2333,7 +2333,7 @@ Model {
       Variant		      off
       System {
 	Name			"proporcional"
-	Location		[-7, 0, 690, 775]
+	Location		[1358, -73, 2814, 843]
 	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -2378,7 +2378,7 @@ Model {
 	  SID			  "79"
 	  Position		  [70, 20, 100, 50]
 	  ZOrder		  183
-	  Gain			  "50"
+	  Gain			  "6"
 	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
 	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
 	  SaturateOnIntegerOverflow off
@@ -2389,7 +2389,7 @@ Model {
 	  SID			  "80"
 	  Position		  [70, 75, 100, 105]
 	  ZOrder		  217
-	  Gain			  "70"
+	  Gain			  "6"
 	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
 	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
 	  SaturateOnIntegerOverflow off
@@ -2400,7 +2400,7 @@ Model {
 	  SID			  "81"
 	  Position		  [75, 130, 105, 160]
 	  ZOrder		  219
-	  Gain			  "50"
+	  Gain			  "6"
 	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
 	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
 	  SaturateOnIntegerOverflow off
@@ -3233,6 +3233,9 @@ Stateflow {
     screen		    [1 1 3600 1200 1.180555555555556]
     treeNode		    [0 15 0 0]
     viewObj		    14
+    visible		    1
+    subviewS {
+    }
     ssIdHighWaterMark	    5
     decomposition	    CLUSTER_CHART
     type		    EML_CHART

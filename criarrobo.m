@@ -32,10 +32,10 @@ motor_B = 9/10000000;
 theta = [0 0 0];
 d = [0.08 0 0];
 l = [0 0.13 0.1];
-alpha = [-pi/2 0 0];
+alpha = [pi/2 0 0];
 
 %criar elos
-% theta | D | l | alpha | sigma | m | rx ry rz | Ixx Iyy Izz Ixy Iyz Ixz | Jm | G | B | Tc[0 0]   
+% theta | D | l | alpha | sigma | m | rx ry rz | Ixx Iyy Izz Ixy Iyz Ixz | Jm | G | B | TcB[0 0]   
  L(1)=Link([theta(1) d(1) l(1) alpha(1) 0 0.01 0.05 0.02 0.01 0 0 0 0 0 0 0 motor_J 1/50 motor_B 0 0]); 
  L(2)=Link([theta(2) d(2) l(2) alpha(2) 0 0.01 0.05 0.02 0.01 0 0 0 0 0 0 0 motor_J 1/50 motor_B 0 0]); 
  L(3)=Link([theta(3) d(3) l(3) alpha(3) 0 0.01 0.05 0.02 0.01 0 0 0 0 0 0 0 motor_J 1/50 motor_B 0 0]); 
