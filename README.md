@@ -10,6 +10,8 @@ facebook: juan.fonseca.50
 
 ![Alt text](https://github.com/juanfonsecamaia/tccprincipal/blob/master/titulo.jpg?raw=true "Title")
 
+![Alt text](https://github.com/juanfonsecamaia/tccprincipal/blob/master/DH.png?raw=true "Title")
 
+![Alt text](https://github.com/juanfonsecamaia/tccprincipal/blob/master/roboread.png?raw=true "Title")
 
 ![Alt text](https://github.com/juanfonsecamaia/tccprincipal/blob/master/sello.jpg?raw=true "Title")
