@@ -129,7 +129,7 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "juan"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Fri Nov 03 20:15:03 2017"
+  LastModifiedDate	  "Sun Nov 05 03:00:28 2017"
   RTWModifiedTimeStamp	  431640495
   ModelVersionFormat	  "1.%<AutoIncrement:53>"
   ConfigurationManager	  "none"
@@ -1717,15 +1717,15 @@ Model {
       "31372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215"
       "686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{[],struct('Color',[0.0745098039215686 0."
       "623529411764706 1],'LineStyle','-','LineWidth',0.5,'Marker','none','Visible','on')}},'UserDefinedChannelNames',{"
-      "{}},'NumLines',6,'LineNames',{{'Ki3:1','Ki3:2','Ki3:3','Ki2:1','Ki2:2','Ki2:3'}},'ShowContent',true,'Placement',"
-      "1)},'DisplayPropertyDefaults',struct('MinYLimReal','-67.59269','MaxYLimReal','152.2493','YLabelReal','','MinYLim"
-      "Mag','0.00000','MaxYLimMag','152.2493','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'"
-      "AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[0.07450"
-      "98039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;1 1 0.0666666666666667;0.717647058823529 0."
-      "274509803921569 1;0.392156862745098 0.831372549019608 0.0745098039215686;0.0588235294117647 1 1;1 0.074509803921"
-      "5686 0.650980392156863])),extmgr.Configuration('Tools','Plot Navigation',true,'PreviousAutoscale','XY','OnceAtSt"
-      "op',false,'PreviousZoomMode','ZoomX'),extmgr.Configuration('Tools','Measurements',true,'Version','2016b')),'Vers"
-      "ion','2016b','Position',[1367 -66 1440 877],'LockDynamicWidgets',-1,'VisibleAtModelOpen','on')"
+      "{}},'NumLines',0,'LineNames',{{[]}},'ShowContent',true,'Placement',1)},'DisplayPropertyDefaults',struct('MinYLim"
+      "Real','-67.59269','MaxYLimReal','152.2493','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','152.2493','Legen"
+      "dVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.6862745"
+      "09803922 0.686274509803922 0.686274509803922],'ColorOrder',[0.0745098039215686 0.623529411764706 1;1 0.411764705"
+      "882353 0.16078431372549;1 1 0.0666666666666667;0.717647058823529 0.274509803921569 1;0.392156862745098 0.8313725"
+      "49019608 0.0745098039215686;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863])),extmgr.Configuratio"
+      "n('Tools','Plot Navigation',true,'PreviousAutoscale','XY','OnceAtStop',false,'PreviousZoomMode','ZoomX'),extmgr."
+      "Configuration('Tools','Measurements',true,'Version','2016b')),'Version','2016b','Position',[-37 -54 1440 873],'L"
+      "ockDynamicWidgets',-1,'VisibleAtModelOpen','on')"
       NumInputPorts	      "2"
     }
     Block {
@@ -3233,9 +3233,6 @@ Stateflow {
     screen		    [1 1 3600 1200 1.180555555555556]
     treeNode		    [0 15 0 0]
     viewObj		    14
-    visible		    1
-    subviewS {
-    }
     ssIdHighWaterMark	    5
     decomposition	    CLUSTER_CHART
     type		    EML_CHART
