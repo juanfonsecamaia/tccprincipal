@@ -570,7 +570,7 @@ rz(1) = 0.08;
 i = 2;
 
 while(button ==1) % enquantos clicamos com botao esquerdo do mause
-rz(i) = 0.07;
+rz(i) = 0.08;
 [x,y,button] = ginput(1); %obtemos a coordenada de um ponto da tela
 plot3(x,y,rz,'ro'); %mostramos o ponto
 %terminamos de ler com um clique no botao direito
@@ -579,19 +579,25 @@ ry(i) = y;
 i = i+1;
 end
 
+assignin('base','rx',rx);
+assignin('base','ry',ry);
+assignin('base','rz',rz);
+
 x = rx;
 y = ry;
 dz = rz;
 
 plot(x,y);
 
-%correcao da altura em z
+%parametros DH
 theta = [0 0 0];
 d = [0.08 0 0];
 l = [0 0.13 0.1];
-alpha = [-pi/2 0 0];
+alpha = [pi/2 0 0];
+
 t=[0:1:1]';
 
+%correcao da altura em z
 z = dz - d(1); 
 
 %pontos em x espaco de trabalho
@@ -770,9 +776,9 @@ alpha = [pi/2 0 0];
 
 %criar elos
 % theta | D | l | alpha | sigma | m | rx ry rz | Ixx Iyy Izz Ixy Iyz Ixz | Jm | G | B | Tc[0 0]   
- L(1)=Link([theta(1) d(1) l(1) alpha(1) 0 0.45 0.00 0.03 0.02 0 0 0 0 0 0 0 motor_J 1/50 motor_B 0 0]); 
- L(2)=Link([theta(2) d(2) l(2) alpha(2) 0 0.5 0.01 -0.03 0.00 0 0 0 0 0 0 0 motor_J 1/50 motor_B 0 0]); 
- L(3)=Link([theta(3) d(3) l(3) alpha(3) 0 0.4 0.01 0.03 0.00 0 0 0 0 0 0 0 motor_J 1/50 motor_B 0 0]); 
+ L(1)=Link([theta(1) d(1) l(1) alpha(1) 0 0.45 0.00 0.03 0.02 0 0 0 0 0 0 0 motor_J 50/1 motor_B 0 0]); 
+ L(2)=Link([theta(2) d(2) l(2) alpha(2) 0 0.5 0.01 -0.03 0.00 0 0 0 0 0 0 0 motor_J 50/1 motor_B 0 0]); 
+ L(3)=Link([theta(3) d(3) l(3) alpha(3) 0 0.4 0.01 0.03 0.00 0 0 0 0 0 0 0 motor_J 50/1 motor_B 0 0]); 
 
  %criar robo
 global robot;
@@ -804,6 +810,7 @@ xr = evalin('base','xr');
 yr = evalin('base','yr');
 zr = evalin('base','zr');
 qreal = evalin('base','qreal');
+
 
 if (a == 1)
     figure(1);
